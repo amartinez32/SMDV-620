@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Favorite Books</title>
+</head>
+<body>
+    <div class="intro">
+        <h1 align=center>Favorite Books</h1>
+    </div>
+       <div class="book">
+           <table border="4">
+               
+            <tr align=center>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>About Book</th>
+                </tr>
+            <tr>
+                <td>A Game of Thrones, Song and Fire</td>
+                <td>George R.R. Martin</td>
+                <td>1996</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank"><img src="img/song_and_fire.jpg"></a></td>
+            </tr>
+            <tr>
+                <td>A Clash of the Kings</td>
+                <td>George R.R. Martin</td>
+                <td>1998</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Clash_of_Kings" target="_blank"><img src="img/clash_of_kings.jpg"></a></td>
+            </tr>
+            <tr>
+                <td>A Storm of Swords</td>
+                <td>George R.R. Martin</td>
+                <td>2001</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Storm_of_Swords" target="_blank"><img src="img/storm_of_swords.jpg"></a></td>
+            </tr>
+            <tr>
+                <td>A Feast for Crows</td>
+                <td>George R.R. Martin</td>
+                <td>2005</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Feast_for_Crows" target="_blank"><img src="img/a_feast_for_crows.jpg"></a></td>
+            </tr>
+            <tr>
+                <td>A Dance with Dragons</td>
+                <td>George R.R. Martin</td>
+                <td>2011</td>
+                <td><a href="https://en.wikipedia.org/wiki/A_Dance_with_Dragons" target="_blank"><img src="img/a_dance_with_dragons.jpg"></a></td>
+            </tr>
+           </table>
+
+       </div>
+    </div>
+
+   <div class="form">
+       <form action="submit.php" method="POST">
+
+        <label for="username">
+                Usersname: <input type="text" id="username">
+        </label>
+        <label for="password">
+                Password: <input type="password" id="password">
+        </label>
+        <label for="commment">
+                Comment: <textarea id="comment"></textarea>
+        </label>
+        
+        <label for="submit">
+                Submit: <input type="submit" id="submit">
+        </label>
+           
+        <label>
+                Start over: <input type="reset" name="clear">
+        </label>
+          
+
+       </form>
+
+   </div>
+</body>
+</html>
